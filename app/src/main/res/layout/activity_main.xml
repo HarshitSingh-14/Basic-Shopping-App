@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EEEE"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/item3"
+        android:layout_width="213dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="184dp"
+        android:ems="10"
+        android:hint="     Item 3 (gms in bracket)"
+        android:inputType="textPersonName"
+        android:shadowColor="#321EF8"
+        android:textColor="#000000"
+        android:textColorHighlight="#050F63"
+        android:textColorHint="#C928168C"
+        android:textColorLink="#58088F"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="494dp"
+        android:layout_height="139dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="652dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/end" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="392dp"
+        android:layout_height="164dp"
+        android:layout_marginTop="108dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/item" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="405dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/menu" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="396dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="412dp"
+        android:fontFamily="sans-serif-black"
+        android:includeFontPadding="false"
+        android:soundEffectsEnabled="false"
+        android:text="   #    Get EXTRA OFF 10%  :  by odering any 2 Items together"
+        android:textColor="#C8FF4147"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="232dp"
+        android:onClick="placeOrder"
+        android:text="Confirm order"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/item2"
+        android:layout_width="213dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="232dp"
+        android:ems="10"
+        android:hint="     Item 2 (gms in bracket)"
+        android:inputType="textPersonName"
+        android:shadowColor="#321EF8"
+        android:textColor="#000000"
+        android:textColorHighlight="#050F63"
+        android:textColorHint="#C928168C"
+        android:textColorLink="#58088F"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="131dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="328dp"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#B16E6E"
+        android:text="CHECKOUT"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/item1"
+        android:layout_width="210dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:hint="     Item 1 (gms in bracket)"
+        android:inputType="textPersonName"
+        android:shadowColor="#321EF8"
+        android:textColor="#000000"
+        android:textColorHighlight="#050F63"
+        android:textColorHint="#C928168C"
+        android:textColorLink="#58088F"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/item2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

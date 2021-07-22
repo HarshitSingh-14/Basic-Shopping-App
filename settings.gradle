@@ -1,0 +1,2 @@
+rootProject.name = "Creamix (Shopping App)"
+include ':app'
